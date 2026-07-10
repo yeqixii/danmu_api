@@ -6,13 +6,11 @@
   "main": "danmu_api/server.js",
   "scripts": {
     "start": "node danmu_api/server.js",
-    "build-forward-widget": "node build-forward-widget.js",
-    "build": "mkdir -p dist && cp -r ./* dist/"
+    "build-forward-widget": "node build-forward-widget.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cloudflare/pages-plugin-express": "^1.0.0",
     "chokidar": "^4.0.3",
     "dotenv": "^16.4.7",
     "esbuild": "^0.25.10",
